@@ -6,10 +6,13 @@ header{
     height: 60px;
     display: flex;
     width: 100%;
+
+    margin-bottom: 20px;
   
 }
-header img{
-    margin-right: 10px;
+header article{
+    margin-left: 10px;
+
 }
 header section{
     float: right;
@@ -18,21 +21,51 @@ header section{
  header h1, header img{
     float: inline-start;
     margin: 0px;
+
+    font-family: 'Lobster', cursive;;
 }
 header p{
     margin:0px;
+    opacity: 50%;
 }
-.section1 h1 {
-    font-size: 40px;
-  }
-.section1 div { 
+main hr{
+    width: 100%;
+    padding: 3px;
+    background-image: url(./asserts/imgs/hr-img.png);
+}
+main section article{
+    float: left;
+
+}
+main section article h1{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Anton', sans-serif;
+    
+}
+main section article h6{
+    margin-top: 0px;
+    opacity: 50%;
+}
+main section div{
+    float:right;
     display: flex;
+    margin-top: 70px;
+    
 }
+main section div h6{
+    margin: 0;
+    
+}
+
 .section1{
     
-    display: inline-block;
-    
+    width: 100%;
+     
 }
+
+
 
 .section2 img { 
     width: 100%;
@@ -44,26 +77,36 @@ header p{
     line-height: 25px;
 }
 
-/* main section{
-    float: inline-start;
-}
-main section h1{
-    font-size: 30px;
-}
-main section div{
-    display: flex;
-    float: right;
-    
-}
-main img{
+.section4 img{
+    margin: 20px 0;
     width: 100%;
 }
-main section div img{
-    height: 15px;
-} */
+
+
 footer article{
     display: block;
     margin: auto;
     align-items: center;
     text-align: center;
+
+}
+footer section{
+    float: left;
+    display: flex;
+    height: 70px;
+}
+footer section div h2,footer section div p{
+    margin: 0;
+}
+footer section button{
+    float: right;
+    border:0;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    
+}
+footer section img{
+    margin-right: 10px;
+
 }
