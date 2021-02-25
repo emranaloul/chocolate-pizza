@@ -6,11 +6,13 @@ header{
     height: 60px;
     display: flex;
     width: 100%;
+
     margin-bottom: 20px;
   
 }
 header article{
     margin-left: 10px;
+
 }
 header section{
     float: right;
@@ -19,6 +21,7 @@ header section{
  header h1, header img{
     float: inline-start;
     margin: 0px;
+
     font-family: 'Lobster', cursive;;
 }
 header p{
@@ -63,6 +66,7 @@ main section div h6{
 }
 
 
+
 .section2 img { 
     width: 100%;
     margin: 20px 0;
@@ -72,16 +76,19 @@ main section div h6{
     text-indent: 20px;
     line-height: 25px;
 }
+
 .section4 img{
     margin: 20px 0;
     width: 100%;
 }
+
 
 footer article{
     display: block;
     margin: auto;
     align-items: center;
     text-align: center;
+
 }
 footer section{
     float: left;
@@ -101,4 +108,5 @@ footer section button{
 }
 footer section img{
     margin-right: 10px;
+
 }
