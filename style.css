@@ -1,0 +1,104 @@
+body{
+    width: 960px;
+    margin: auto;
+}
+header{
+    height: 60px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  
+}
+header article{
+    margin-left: 10px;
+}
+header section{
+    float: right;
+    margin-left: 480px;
+}
+ header h1, header img{
+    float: inline-start;
+    margin: 0px;
+    font-family: 'Lobster', cursive;;
+}
+header p{
+    margin:0px;
+    opacity: 50%;
+}
+main hr{
+    width: 100%;
+    padding: 3px;
+    background-image: url(./asserts/imgs/hr-img.png);
+}
+main section article{
+    float: left;
+
+}
+main section article h1{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Anton', sans-serif;
+    
+}
+main section article h6{
+    margin-top: 0px;
+    opacity: 50%;
+}
+main section div{
+    float:right;
+    display: flex;
+    margin-top: 70px;
+    
+}
+main section div h6{
+    margin: 0;
+    
+}
+
+.section1{
+    
+    width: 100%;
+     
+}
+
+
+.section2 img { 
+    width: 100%;
+    margin: 20px 0;
+}
+
+.section3 p{
+    text-indent: 20px;
+    line-height: 25px;
+}
+.section4 img{
+    margin: 20px 0;
+    width: 100%;
+}
+
+footer article{
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+footer section{
+    float: left;
+    display: flex;
+    height: 70px;
+}
+footer section div h2,footer section div p{
+    margin: 0;
+}
+footer section button{
+    float: right;
+    border:0;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    
+}
+footer section img{
+    margin-right: 10px;
+}
